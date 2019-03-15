@@ -2,11 +2,11 @@
 AutoSplitter script for Livesplit with additional features
 
 ## Features:
-AutoStart - Timer Autostart
-AutoSplit - Split on map name changes in memory
-Load Removal - Pause timer for the entire loading screen including press any key
-Cinematic Removal - Pause if cinematics can be skipped
-Pause Removal - Pauses timer when press ESC and on Situation screens.
+* AutoStart - Timer Autostart
+* AutoSplit - Split on map name changes in memory
+* Load Removal - Pause timer for the entire loading screen including press any key
+* Cinematic Removal - Pause if cinematics can be skipped
+* Pause Removal - Pauses timer when press ESC and on Situation screens.
 
 ## Getting Started
 May conflict w/ SuicideMachines existing Autosplitter/Load Remover ie. cause multiple splits. 
