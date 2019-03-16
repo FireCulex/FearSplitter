@@ -78,7 +78,7 @@ isLoading
 
 	if (settings["cinematicsremover"]) 
 	{
-		if (current.bCinematics == 1)
+		if (current.bCinematics == 1 && current.mission == "Intro.World00p")
 			return true;
 
 	}
