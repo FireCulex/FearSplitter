@@ -5,7 +5,7 @@ AutoSplitter script for Livesplit with additional features
 * AutoStart - Timer Autostart
 * AutoSplit - Split on map name changes in memory
 * Load Removal - Pause timer for the entire loading screen including press any key
-* Cinematic Removal - Pause timer if cinematics can be skipped in first map only
+* Cinematic Removal - Pause if cinematics can be skipped
 * Pause Removal - Pauses timer when press ESC and on Situation screens.
 * Experimental QuickSave/CheckPoint Remover - Needs to be thoroughly vetted
 
