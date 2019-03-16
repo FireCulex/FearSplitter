@@ -7,6 +7,7 @@ AutoSplitter script for Livesplit with additional features
 * Load Removal - Pause timer for the entire loading screen including press any key
 * Cinematic Removal - Pause if cinematics can be skipped
 * Pause Removal - Pauses timer when press ESC and on Situation screens.
+* Experimental QuickSave/CheckPoint Remover - Needs to be thoroughly vetted
 
 ## Getting Started
 May conflict w/ SuicideMachines existing Autosplitter/Load Remover ie. cause multiple splits. 
