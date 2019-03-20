@@ -72,19 +72,25 @@ isLoading
 {
 	if (settings["pausetimer"]) 
 	{
-		if (current.bPause == true) 
+		if (current.bPause == true) { 
+		print ("Pause Removed");
 			return true;
+			}
 	}
 
 	if (settings["cinematicsremover"]) 
 	{
-		if (current.bCinematics == 1 && current.mission == "Intro.World00p")
+		if (current.bCinematics == 1 && current.mission == "Intro.World00p") {
+		print ("Cinematic Removed");
 			return true;
+			}
 
 	}
 	if (settings["loadremover"]) {
-		if (current.bLoading == true)
+		if (current.bLoading == true) {
+		print ("Loading Removed");
 			return true;
+			}
 	}
 	if (settings["checkpointremover"]) {
 	if (current.bSaveRemoval == 1)
