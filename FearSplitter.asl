@@ -1,10 +1,13 @@
 state("FEAR")
 {
-	bool bLoading : 0x173DB0;
+
+int bLoading : 0x173DB0;
+
 	bool bPause : 0x16CCE8; 
 	byte bCinematics : 0x00170CB4, 0x4, 0xAC, 0x20, 0x174, 0x678;
 	byte bSaveRemoval : 0x00015DCC, 0x288;
-	string16 mission : 0x16C045
+	string16 mission : 0x16C045;
+
 }
 
 init
@@ -87,7 +90,7 @@ isLoading
 
 	}
 	if (settings["loadremover"]) {
-		if (current.bLoading == true) {
+		if (current.bLoading == 1 || current.bLoading == 2) {
 		print ("Loading Removed");
 			return true;
 			}
